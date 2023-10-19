@@ -1,5 +1,7 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
+//! See [GitHub Repository](https://github.com/MetalPhaeton/anipwatch)
+
 extern crate image;
 extern crate eframe;
 extern crate serde;
