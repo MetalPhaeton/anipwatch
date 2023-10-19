@@ -1,0 +1,429 @@
+window_size:
+    width: 480
+    height: 270
+
+save_data_file: "save_file.data"
+
+textures:
+    -
+        name: "display"
+        path: "display.png"
+    -
+        name: "body_texture_white"
+        path: "body_texture_white.png"
+    -
+        name: "eyes_texture_white"
+        path: "eyes_texture_white.png"
+    -
+        name: "body_texture_red"
+        path: "body_texture_red.png"
+    -
+        name: "eyes_texture_red"
+        path: "eyes_texture_red.png"
+    -
+        name: "body_texture_blue"
+        path: "body_texture_blue.png"
+    -
+        name: "eyes_texture_blue"
+        path: "eyes_texture_blue.png"
+    -
+        name: "numbers"
+        path: "numbers.png"
+    -
+        name: "switch_btn"
+        path: "switch_btn.png"
+    -
+        name: "start_stop_btn"
+        path: "start_stop_btn.png"
+    -
+        name: "reset_btn"
+        path: "reset_btn.png"
+    -
+        name: "quit_btn"
+        path: "quit_btn.png"
+
+skins:
+    -
+        name: "skin_white"
+        display:
+            texture_name: "numbers"
+            depth: 0
+            regions:
+                centiseconds:
+                    d1:
+                        x: 440.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                    d2:
+                        x: 400.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                seconds:
+                    d1:
+                        x: 340.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                    d2:
+                        x: 300.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                minutes:
+                    d1:
+                        x: 240.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                    d2:
+                        x: 200.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                hours:
+                    d1:
+                        x: 140.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                    d2:
+                        x: 100.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+        switch_button:
+            texture_name: "switch_btn"
+            depth: 2
+            region:
+                x: 100.0
+                y: 60.0
+                width: 95.0
+                height: 20.0
+        start_stop_button:
+            texture_name: "start_stop_btn"
+            depth: 3
+            region:
+                x: 195.0
+                y: 60.0
+                width: 95.0
+                height: 20.0
+        reset_button:
+            texture_name: "reset_btn"
+            depth: 4
+            region:
+                x: 290.0
+                y: 60.0
+                width: 95.0
+                height: 20.0
+        quit_button:
+            texture_name: "quit_btn"
+            depth: 5
+            region:
+                x: 385.0
+                y: 60.0
+                width: 95.0
+                height: 20.0
+        animations:
+            -
+                texture_name: "display"
+                depth: 1
+                region:
+                    x: 100.0
+                    y: 0.0
+                    width: 380.0
+                    height: 60.0
+                frames: 1
+                fps: 1.0
+            -
+                texture_name: "body_texture_white"
+                depth: 7
+                region:
+                    x: 0.0
+                    y: 0.0
+                    width: 480.0
+                    height: 270.0
+                frames: 6
+                fps: 2.0
+            -
+                texture_name: "eyes_texture_white"
+                depth: 6
+                region:
+                    x: 0.0
+                    y: 0.0
+                    width: 480.0
+                    height: 270.0
+                frames: 2
+                fps: 2.0
+                probability: 0.5
+    -
+        name: "skin_red"
+        display:
+            texture_name: "numbers"
+            depth: 0
+            regions:
+                centiseconds:
+                    d1:
+                        x: 440.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                    d2:
+                        x: 400.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                seconds:
+                    d1:
+                        x: 340.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                    d2:
+                        x: 300.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                minutes:
+                    d1:
+                        x: 240.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                    d2:
+                        x: 200.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                hours:
+                    d1:
+                        x: 140.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                    d2:
+                        x: 100.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+        switch_button:
+            texture_name: "switch_btn"
+            depth: 2
+            region:
+                x: 100.0
+                y: 60.0
+                width: 95.0
+                height: 20.0
+        start_stop_button:
+            texture_name: "start_stop_btn"
+            depth: 3
+            region:
+                x: 195.0
+                y: 60.0
+                width: 95.0
+                height: 20.0
+        reset_button:
+            texture_name: "reset_btn"
+            depth: 4
+            region:
+                x: 290.0
+                y: 60.0
+                width: 95.0
+                height: 20.0
+        quit_button:
+            texture_name: "quit_btn"
+            depth: 5
+            region:
+                x: 385.0
+                y: 60.0
+                width: 95.0
+                height: 20.0
+        animations:
+            -
+                texture_name: "display"
+                depth: 1
+                region:
+                    x: 100.0
+                    y: 0.0
+                    width: 380.0
+                    height: 60.0
+                frames: 1
+                fps: 1.0
+            -
+                texture_name: "body_texture_red"
+                depth: 7
+                region:
+                    x: 0.0
+                    y: 0.0
+                    width: 480.0
+                    height: 270.0
+                frames: 6
+                fps: 2.0
+            -
+                texture_name: "eyes_texture_red"
+                depth: 6
+                region:
+                    x: 0.0
+                    y: 0.0
+                    width: 480.0
+                    height: 270.0
+                frames: 2
+                fps: 2.0
+                probability: 0.5
+    -
+        name: "skin_blue"
+        display:
+            texture_name: "numbers"
+            depth: 0
+            regions:
+                centiseconds:
+                    d1:
+                        x: 440.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                    d2:
+                        x: 400.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                seconds:
+                    d1:
+                        x: 340.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                    d2:
+                        x: 300.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                minutes:
+                    d1:
+                        x: 240.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                    d2:
+                        x: 200.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                hours:
+                    d1:
+                        x: 140.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+                    d2:
+                        x: 100.0
+                        y: 0.0
+                        width: 40.0
+                        height: 60.0
+        switch_button:
+            texture_name: "switch_btn"
+            depth: 2
+            region:
+                x: 100.0
+                y: 60.0
+                width: 95.0
+                height: 20.0
+        start_stop_button:
+            texture_name: "start_stop_btn"
+            depth: 3
+            region:
+                x: 195.0
+                y: 60.0
+                width: 95.0
+                height: 20.0
+        reset_button:
+            texture_name: "reset_btn"
+            depth: 4
+            region:
+                x: 290.0
+                y: 60.0
+                width: 95.0
+                height: 20.0
+        quit_button:
+            texture_name: "quit_btn"
+            depth: 5
+            region:
+                x: 385.0
+                y: 60.0
+                width: 95.0
+                height: 20.0
+        animations:
+            -
+                texture_name: "display"
+                depth: 1
+                region:
+                    x: 100.0
+                    y: 0.0
+                    width: 380.0
+                    height: 60.0
+                frames: 1
+                fps: 1.0
+            -
+                texture_name: "body_texture_blue"
+                depth: 7
+                region:
+                    x: 0.0
+                    y: 0.0
+                    width: 480.0
+                    height: 270.0
+                frames: 6
+                fps: 2.0
+            -
+                texture_name: "eyes_texture_blue"
+                depth: 6
+                region:
+                    x: 0.0
+                    y: 0.0
+                    width: 480.0
+                    height: 270.0
+                frames: 2
+                fps: 2.0
+                probability: 0.5
+
+default_mode: "clock"
+default_stopwatch_skin_name: "skin_white"
+default_clock_skin_name: "skin_white"
+
+stopwatch_events:
+    -
+        skin_name: "skin_red"
+        from:
+            centiseconds: 0
+            seconds: 30
+            minutes: 0
+            hours: 0
+    -
+        skin_name: "skin_blue"
+        from:
+            centiseconds: 0
+            seconds: 0
+            minutes: 1
+            hours: 0
+    -
+        skin_name: "skin_white"
+        from:
+            centiseconds: 0
+            seconds: 30
+            minutes: 1
+            hours: 0
+clock_events:
+    -
+        skin_name: "skin_red"
+        from:
+            centiseconds: 0
+            seconds: 0
+            minutes: 0
+            hours: 8
+    -
+        skin_name: "skin_blue"
+        from:
+            centiseconds: 0
+            seconds: 0
+            minutes: 1
+            hours: 16
