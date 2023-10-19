@@ -16,8 +16,8 @@ Index
 - [Textures](#textures)
 - [Run example](#run-example)
 
-Description {#description}
---------------------------
+Description
+-----------
 
 Very lovely clock and stopwatch.
 It always places on the top of desktop and animates pictures.
@@ -29,14 +29,14 @@ LICENSE {#license}
 - Logo and icon: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - Images in examples: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Logo and Icon {#logo-and-icon}
-------------------------------
+Logo and Icon
+-------------
 
 - Logo: [`logo.png`](logo.png)
 - Icon: [`src/icon.png`](src/icon.png)
 
-Usage {#usage}
----------------
+Usage
+-----
 
 Runs Anipwatch.
 
@@ -54,8 +54,8 @@ anipwatch --help
 anipwatch -h
 ```
 
-Settings file {#settings-file}
-------------------------------
+Settings file
+-------------
 
 See [example](examples/example_settings.yaml).
 
@@ -587,8 +587,8 @@ clock_events:
             hours: 16
 ```
 
-Textures {#textures}
---------------------
+Textures
+--------
 
 At least, PNG and JPEG are supported.
 
@@ -639,8 +639,8 @@ Line up same size pictures from the 1st frame to the last frame from left to rig
 
 ![](examples/eyes_texture_blue.png)
 
-Run example {#run-example}
---------------------------
+Run example
+-----------
 
 Change current working directory to `examples` and execute the following command.
 
