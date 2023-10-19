@@ -22,8 +22,8 @@ Description
 Very lovely clock and stopwatch.
 It always places on the top of desktop and animates pictures.
 
-LICENSE {#license}
-------------------
+LICENSE
+-------
 
 - Software: MIT License
 - Logo and icon: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
