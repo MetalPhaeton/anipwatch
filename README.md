@@ -57,6 +57,7 @@ anipwatch -h
 Settings file
 -------------
 
+Settings file is written in YAML.  
 See [example](examples/example_settings.yaml).
 
 Defines main window size
